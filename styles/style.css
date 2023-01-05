@@ -57,12 +57,13 @@ nav ul li {
 }
 
 /* header-banner */
-.header{
-    background:#FFF8F3;
+.header {
+    background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position:bottom right , left ;
+    background-position: bottom right, left;
 }
+
 .banner {
     display: flex;
     margin: 0 0 0 230px;
@@ -85,8 +86,99 @@ nav ul li {
 }
 
 .banner-pragraph {
-font-size: 18px;
-line-height: 30px;
-color: #757575;
-margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
 }
+
+/* main-section */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
+}
+
+/* about-section */
+.contant-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.about {
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 131px 156px;
+    margin-top: 146px;
+    text-align: center;
+}
+
+.about-paragraph {
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.about-info {}
+
+.info-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    color: #757575;
+}
+
+.info-description {
+    font-size: 20px;
+    line-height: 30px;
+    color: #474747;
+    font-weight: 600;
+}
+
+/* what-i-do-style */
+.what-i-do-section {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.what-do-description {
+    padding: 0 150px 0;
+    text-align: center;
+}
+
+.skils-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.skil {
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.skil-title {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #181818;
+}
+
+.skil-description {
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575
+}
+
