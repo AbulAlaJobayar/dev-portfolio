@@ -24,6 +24,14 @@
 
 }
 
+.mt {
+    margin-top: 130px;
+}
+
+.tc {
+    text-align: center;
+}
+
 /* header and navigation */
 nav {
     display: flex;
@@ -158,6 +166,7 @@ main {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    gap: 24px;
 }
 
 .skil {
@@ -183,6 +192,7 @@ main {
     line-height: 28px;
     color: #757575
 }
+
 /* resume */
 
 .my-education-container-title {
@@ -190,4 +200,58 @@ main {
     font-size: 30px;
     line-height: 41px;
     color: #474747;
+}
+
+
+
+.resume-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 71px;
+    
+}
+
+.container-title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.container-info {
+    border-bottom: 1px solid #D1D1D1;
+    margin-top: 30px;
+    
+}
+
+.container-info-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-bottom: 10px;
+}
+
+.container-info-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+
+.container-info-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    padding-bottom: 30px;
+}
+.cv{
+    margin: 50px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
